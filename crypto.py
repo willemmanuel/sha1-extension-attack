@@ -1,11 +1,6 @@
 import struct
 import binascii
 
-
-#
-# This might be helpful for some when dealing w/ strings and bytes.
-#
-
 def s2b(s: str) -> bytes:
     """ Converts an ASCII string to binary."""
     return bytes(list(map(ord, s)))
